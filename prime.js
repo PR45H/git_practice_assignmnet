@@ -10,13 +10,13 @@ function isPrime(num) {
 
 // Function to generate prime numbers up to a given limit
 function generatePrimes(limit) {
-    const primes = [];
-    for (let i = 2; i <= limit; i++) {
-        if (isPrime(i)) {
-            primes.push(i);
-        }
-    }
-    return primes;
+  const primes = [];
+  for (let i = 2; i <= limit; i++) {
+      if (isPrime(i)) {
+          primes.push(i);
+      }
+  }
+  return primes;
 }
 
 // Set your desired limit
