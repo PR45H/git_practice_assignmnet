@@ -1,11 +1,11 @@
 // Use the above function to print the Primes from 2 to a given limi
 // Function to check if a number is prime
 function isPrime(num) {
-  if (num <= 1) return false;
-  for (let i = 2; i <= Math.sqrt(num); i++) {
-      if (num % i === 0) return false;
-  }
-  return true;
+    if (num <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) return false;
+    }
+    return true;
 }
 
 // Function to generate prime numbers up to a given limit
@@ -24,5 +24,6 @@ const limit = 50;  // Change this to your desired limit
 
 // Call the function and print the primes
 const primeNumbers = generatePrimes(limit);
-console.log(`Prime numbers up to ${limit}: ${primeNumbers}`);
+console.log(`${primeNumbers}`);
+console.log('program end')
 
